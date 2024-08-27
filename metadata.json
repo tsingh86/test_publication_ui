@@ -1,7 +1,7 @@
 {
   "toolscriptVersion": "1.0.0",
   "version": "43.0.9",
-  "pageUuid": "84136d38-d575-11ee-a950-afa0a9310535",
+  "pageUuid": "149b3b7a-33bc-11ef-bf17-ffa4ca0f38e0",
   "appTemplate": {
     "appMaxWidth": "1560px",
     "experimentalFeatures": {
@@ -65,6 +65,171 @@
         },
         "required_flag": {
           "array": []
+        },
+        "bulk_csv": {
+          "array": []
+        },
+        "bulk_csv_upload": {
+          "array": []
+        },
+        "_get_publication_testing": {
+          "array": []
+        },
+        "_get_csv_punlication_testing": {
+          "array": []
+        },
+        "transformer_csv_publication_testing": {
+          "array": []
+        },
+        "_transformer_csv_publication_testing": {
+          "array": []
+        },
+        "bulk_csv_validation": {
+          "array": []
+        },
+        "global_name_csv": {
+          "array": []
+        },
+        "bulk_csv_validation_old": {
+          "array": []
+        },
+        "bulk_csv_upload_old": {
+          "array": []
+        },
+        "bulk_csv_validation_old1": {
+          "array": []
+        },
+        "bulk_csv_validation_oops": {
+          "array": []
+        },
+        "bulk_csv_validation_old_final": {
+          "array": []
+        },
+        "bulk_csv_schema_validation": {
+          "array": []
+        },
+        "_delete_bulk_manual_publications_metadata": {
+          "array": []
+        },
+        "user": {
+          "array": []
+        },
+        "userList": {
+          "array": []
+        },
+        "_get_bulk_import_users": {
+          "array": []
+        },
+        "_get_bulk_imported_data_by_user": {
+          "array": []
+        },
+        "_get_bulk_imported_users": {
+          "array": []
+        },
+        "_transform_get_bulk_imported_users": {
+          "array": []
+        },
+        "_get_bulk_users": {
+          "array": []
+        },
+        "_transform_get_bulk_users": {
+          "array": []
+        },
+        "_set_bulk_users": {
+          "array": []
+        },
+        "bulStatustable": {
+          "array": []
+        },
+        "bulk_import_status_grid": {
+          "array": []
+        },
+        "_transformer_get_bulk_imported_datat_by_user": {
+          "array": []
+        },
+        "_get_bulk_users_old": {
+          "array": []
+        },
+        "bulk": {
+          "array": []
+        },
+        "bulk_status_data_by_user": {
+          "array": []
+        },
+        "bulk_status_user_records": {
+          "array": []
+        },
+        "check_success": {
+          "array": []
+        },
+        "check_error": {
+          "array": []
+        },
+        "_delete_bulk_manual_publications_metadata_uat": {
+          "array": []
+        },
+        "_put_bulk_manual_publications_metadata": {
+          "array": []
+        },
+        "copyright_option_user": {
+          "array": []
+        },
+        "bulk_status_user_check": {
+          "array": []
+        },
+        "browse_publication_csv_btn": {
+          "array": []
+        },
+        "pub_csv_data_preview_table": {
+          "array": []
+        },
+        "pub_validation_error_table": {
+          "array": []
+        },
+        "pub_csv_data_preview_text": {
+          "array": []
+        },
+        "pub_validation_error_text": {
+          "array": []
+        },
+        "_get_bulk_imported_data_by_user_uat": {
+          "array": []
+        },
+        "_get_bulk_imported_data_by_user_prod": {
+          "array": []
+        },
+        "_transformer_get_bulk_imported_datat_by_user_uat": {
+          "array": []
+        },
+        "_get_bulk_users_uat": {
+          "array": []
+        },
+        "_get_bulk_users_prod": {
+          "array": []
+        },
+        "_transform_get_bulk_users_uat": {
+          "array": []
+        },
+        "_transformer_get_bulk_imported_datat_by_user_prod": {
+          "array": []
+        },
+        "_transform_get_bulk_users_prod": {
+          "array": []
+        },
+        "bulk_import_status_user_list": {
+          "array": []
+        },
+        "_transform_bulk_users_uat": {
+          "array": []
+        },
+        "_transform_bulk_users_prod": {
+          "array": []
+        },
+        "_transform_get_bulk_imported_datat_by_user_uat": {
+          "array": []
+        },
+        "_transform_get_bulk_imported_datat_by_user_prod": {
+          "array": []
         }
       }
     },
@@ -75,7 +240,7 @@
       }
     },
     "isFetching": true,
-    "version": "3.68.0",
+    "version": "3.84.0",
     "experimentalDataTabEnabled": true
   }
 }

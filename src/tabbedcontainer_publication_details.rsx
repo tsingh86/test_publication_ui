@@ -1,5 +1,6 @@
 <Container
   id="tabbedcontainer_publication_details"
+  _gap={0}
   currentViewKey="{{ self.viewKeys[0] }}"
   footerPadding="4px 12px"
   footerPaddingType="normal"
@@ -368,7 +369,7 @@
       showClear={true}
       showSelectionIndicator={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_publication_type ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.publication_type ?? null
 
 }}
 "
@@ -414,7 +415,7 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.immo_license ?? n
       placeholder="Enter value"
       required={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_name ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.name ?? null
 
 }}"
     />
@@ -429,7 +430,7 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_name ?? null
       required={true}
       showClear={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_reporting_code ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.reporting_code ?? null
 
 }}"
     />
@@ -443,7 +444,7 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_reporting_cod
       required={true}
       showClear={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_publisher ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.publisher ?? null
 
 }}"
     />
@@ -460,7 +461,7 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_publisher ?? 
       showClear={true}
       showSelectionIndicator={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_edition ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.edition ?? null
 
 }}"
     >
@@ -475,7 +476,7 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_edition ?? nu
       placeholder="Enter value"
       showClear={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_acronym ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.acronym ?? null
 
 }}"
     />
@@ -484,12 +485,12 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_acronym ?? nu
       disabled="false
     "
       hidden={'{{!select_copyright_owner.value.includes("NLI")}}'}
-      label="nli_publication_type"
+      label="publication_type"
       placeholder="Enter value"
       required={true}
       showClear={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.nli_publication_type ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.publication_type ?? null
 
 }}"
     />
@@ -501,7 +502,7 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.nli_publication_t
       minLines="1"
       placeholder="Enter value"
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_region ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.region ?? null
 
 }}"
     />
@@ -515,7 +516,7 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.nla_region ?? nul
       required={true}
       showClear={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.cla_reporting_code_plsid ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.reporting_code_plsid ?? null
 
 }}"
     />
@@ -529,7 +530,7 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.cla_reporting_cod
       required={true}
       showClear={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.cla_name ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.name ?? null
 
 }}"
     />
@@ -543,7 +544,7 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.cla_name ?? null
       required={true}
       showClear={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.cla_issn ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.issn ?? null
 
 }}"
     />
@@ -557,7 +558,7 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.cla_issn ?? null
       required={true}
       showClear={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.nli_name ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.name ?? null
 }}"
     />
     <TextInput
@@ -570,7 +571,7 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.nli_name ?? null
       required={true}
       showClear={true}
       value="{{ 
-table_publications?.selectedRow?.copyright_owner_details?.[0]?.cla_publisher_name ?? null
+table_publications?.selectedRow?.copyright_owner_details?.[0]?.publisher_name ?? null
 
 }}"
     />
@@ -947,6 +948,13 @@ table_publications?.selectedRow?.copyright_owner_details?.[0]?.cla_publisher_nam
             _disclosedFields={{ array: [] }}
             hidden="{{state_rules.value[i].rule_field.length=0}}"
             marginType="normal"
+            style={{
+              ordered: [
+                { fontSize: "h6Font" },
+                { fontWeight: "700" },
+                { lineHeight: "1.14em" },
+              ],
+            }}
             textSize="h6"
           />
         </ListView>
