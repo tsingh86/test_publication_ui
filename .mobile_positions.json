@@ -1,0 +1,15 @@
+{
+  "jsonSchema_metadata_form": {
+    "container": "container_entity_details",
+    "subcontainer": "a2b3d",
+    "height": 8.6,
+    "width": 12
+  },
+  "nla_name": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a6b7a",
+    "row": 3,
+    "height": 0.2,
+    "width": 12
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "query": {
+    "nested": {
+      "path": "publications",
+      "query": {
+        "term": {
+          "publications.global_name": {{textInput_search_title.value}}
+        }
+      }
+    }
+  },
+  "_source": [
+    "publications"
+  ]
+}

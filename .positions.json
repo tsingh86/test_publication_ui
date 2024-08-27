@@ -1,0 +1,836 @@
+{
+  "Default_Id": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a6b7a",
+    "row": 2.6,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 10,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Domain": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a6b7a",
+    "row": 2.4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 12,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "aday_id": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 5.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "aday_name": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 5,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "button1": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "cd96e",
+    "row": 2.6,
+    "col": 1,
+    "height": 0.8,
+    "width": 2
+  },
+  "button_add_rule2": {
+    "container": "form_rules2",
+    "rowGroup": "header",
+    "row": 0.2,
+    "height": 0.8
+  },
+  "button_add_rule_field2": {
+    "container": "parentListview3",
+    "row": 0.2,
+    "height": 0.8
+  },
+  "button_search": {
+    "container": "container_search",
+    "subcontainer": "9b8cb",
+    "row": 0.2,
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "cedro_name": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 4.4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cedro_nla_reciprocal_code": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 4.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cfc_name": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cfc_nla_reciprocal_reporting_code": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 4.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "checkboxTree1": {
+    "container": "container_publications2",
+    "subcontainer": "48330",
+    "height": 15.8,
+    "width": 5
+  },
+  "cla_issn": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 3.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cla_name": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 3,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cla_publisher_name": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 3.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 8,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cla_reporting_code_plsid": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 2.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 9,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container_entity_details": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "4586f",
+    "row": 3,
+    "col": 6,
+    "height": 0.2,
+    "width": 5
+  },
+  "container_publicationSearchResults": {
+    "container": "container_publications",
+    "subcontainer": "48330",
+    "row": 13.8,
+    "height": 2,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container_publications": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "cd96e",
+    "row": 0.6,
+    "height": 2,
+    "width": 12
+  },
+  "container_publications2": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "a935e",
+    "height": 22.2,
+    "width": 12
+  },
+  "container_search": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "cd96e",
+    "height": 0.2,
+    "width": 7
+  },
+  "container_search_title": {
+    "container": "container_search",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "container_search_title2": {
+    "subcontainer": "header",
+    "height": 0.6,
+    "width": 7
+  },
+  "container_title_publications": {
+    "container": "container_publications",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container_title_publications2": {
+    "container": "container_publications2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containertitle_entity_details": {
+    "container": "container_entity_details",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 5
+  },
+  "create_publication": {
+    "container": "form_publication",
+    "rowGroup": "footer",
+    "col": 6,
+    "height": 1
+  },
+  "delivery_method": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 4.8,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 11,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "divider3": {
+    "container": "parentListview3",
+    "row": 7,
+    "height": 0.2,
+    "width": 12
+  },
+  "dropdownButton_publicationOptions": {
+    "container": "container_search",
+    "subcontainer": "9b8cb",
+    "row": 0.2,
+    "col": 9,
+    "height": 1,
+    "width": 1
+  },
+  "dropdownButton_publicationOptions2": {
+    "container": "container_entity_details",
+    "rowGroup": "header",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "form_publication": {
+    "container": "container_publications",
+    "subcontainer": "48330",
+    "col": 7,
+    "height": 1,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "form_rules2": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "f88a8",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 13,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "formbutton_publication_details_submit": {
+    "container": "form_publication",
+    "rowGroup": "footer",
+    "col": 9,
+    "height": 1
+  },
+  "icon_delete_rule": {
+    "container": "parentListview3",
+    "row": 0.2,
+    "col": 11,
+    "height": 0.6,
+    "width": 1
+  },
+  "icon_delete_rule_field": {
+    "container": "nestedListview_fields",
+    "row": 0.2,
+    "col": 11,
+    "height": 0.6,
+    "width": 1
+  },
+  "immo_license": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 0.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 14,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "jsonExplorer2": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "f88a8",
+    "row": 0.4,
+    "height": 9.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 15,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "jsonSchema_metadata_form": {
+    "container": "container_entity_details",
+    "subcontainer": "a2b3d",
+    "height": 12.8,
+    "width": 12
+  },
+  "linklist_navigation": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "4586f",
+    "height": 0.6,
+    "width": 2
+  },
+  "multiselect_language": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a6b7a",
+    "row": 2.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 16,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "nestedListview_fields": {
+    "container": "parentListview3",
+    "row": 1,
+    "width": 12
+  },
+  "nla_acronym": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 1.4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 17,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "nla_name": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 18,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "nla_publication_type": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 19,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "nla_publisher": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 1,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 20,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "nla_region": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 1.8,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 21,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "nla_reporting_code": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 0.8,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 22,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "nli_name": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 3.4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 23,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "nli_nla_reciprocal_reporting_code": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 3.8,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 24,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "nli_publication_type": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 1.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 25,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "number_circulation": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "e7a36",
+    "row": 0.2,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 26,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "number_colour_page_price2": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "e7a36",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 27,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "number_cost_per_thousand": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "e7a36",
+    "row": 0.4,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 28,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "parentListview3": {
+    "container": "form_rules2",
+    "width": 12
+  },
+  "select_category": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a6b7a",
+    "row": 1.4,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 29,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "select_copyright_owner": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 30,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "select_country": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a6b7a",
+    "row": 1.2,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 31,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "select_family": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a6b7a",
+    "row": 2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 32,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "select_field_id": {
+    "container": "nestedListview_fields",
+    "height": 0.2,
+    "width": 5
+  },
+  "select_frequency": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a6b7a",
+    "row": 1.8,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 33,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "select_media_type": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a6b7a",
+    "row": 1.6,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 34,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "select_nla_edition": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a2198",
+    "row": 1.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 35,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "select_rule_source7": {
+    "container": "parentListview3",
+    "height": 0.2,
+    "width": 11
+  },
+  "spacer1": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "cd96e",
+    "row": 0.2,
+    "height": 0.4,
+    "width": 12
+  },
+  "switch_verified": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a6b7a",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 36,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tabbedcontainer_publication": {
+    "subcontainer": "header",
+    "row": 2.2,
+    "height": 2,
+    "width": 12
+  },
+  "tabbedcontainer_publication_details": {
+    "container": "form_publication",
+    "row": 0.8,
+    "height": 1,
+    "width": 12
+  },
+  "table_entities": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "4586f",
+    "row": 0.6,
+    "height": 8,
+    "width": 6
+  },
+  "table_publications": {
+    "container": "container_publications",
+    "subcontainer": "48330",
+    "row": 2,
+    "height": 11.8,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tabs_navigation": {
+    "container": "tabbedcontainer_publication",
+    "rowGroup": "header",
+    "height": 0.8,
+    "width": 12
+  },
+  "tabs_publication_details_navigation": {
+    "container": "form_publication",
+    "col": 7,
+    "height": 0.8,
+    "width": 5
+  },
+  "textInput_field_value": {
+    "container": "nestedListview_fields",
+    "col": 5,
+    "height": 0.2,
+    "width": 6
+  },
+  "textInput_search_title": {
+    "container": "container_search",
+    "subcontainer": "9b8cb",
+    "row": 0.2,
+    "height": 1,
+    "width": 9
+  },
+  "text_title": {
+    "container": "tabbedcontainer_publication_details",
+    "subcontainer": "a6b7a",
+    "row": 0.4,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 37,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

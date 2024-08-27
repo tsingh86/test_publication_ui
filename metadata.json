@@ -1,0 +1,81 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "84136d38-d575-11ee-a950-afa0a9310535",
+  "appTemplate": {
+    "appMaxWidth": "1560px",
+    "experimentalFeatures": {
+      "object": {
+        "sourceControlTemplateDehydration": false,
+        "multiplayerEditingEnabled": false
+      }
+    },
+    "pageCodeFolders": {
+      "object": {
+        "extract_id": {
+          "array": []
+        },
+        "gmd_id": {
+          "array": []
+        },
+        "copyright_option": {
+          "array": []
+        },
+        "_get_meta_copyright_owners": {
+          "array": []
+        },
+        "_transform_get_copyright_owners": {
+          "array": []
+        },
+        "_put_nla_publication_uat": {
+          "array": []
+        },
+        "_put_nla_publication_prod": {
+          "array": []
+        },
+        "_update_publication_testing": {
+          "array": []
+        },
+        "_put_publication_testing": {
+          "array": []
+        },
+        "cla_reporting_code_plsid": {
+          "array": []
+        },
+        "cla_publisher_name": {
+          "array": []
+        },
+        "nli_publication_type": {
+          "array": []
+        },
+        "nli_nla_reciprocal_reporting_code": {
+          "array": []
+        },
+        "publication_type": {
+          "array": []
+        },
+        "immo_license": {
+          "array": []
+        },
+        "nla_publication_type": {
+          "array": []
+        },
+        "delivery_method_required_flag": {
+          "array": []
+        },
+        "required_flag": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": true
+      }
+    },
+    "isFetching": true,
+    "version": "3.68.0",
+    "experimentalDataTabEnabled": true
+  }
+}
