@@ -1,5 +1,6 @@
 <Container
   id="tabbedcontainer_publication"
+  _gap={0}
   currentViewKey="{{ self.viewKeys[0]}}"
   footerPadding="4px 12px"
   footerPaddingType="normal"
@@ -35,6 +36,7 @@
   <View id="cd96e" label="Publication" viewKey="Publication">
     <Container
       id="container_search"
+      _gap={0}
       footerPadding="4px 12px"
       footerPaddingType="normal"
       headerPadding="4px 12px"
@@ -187,6 +189,7 @@
     <Spacer id="spacer1" marginType="normal" />
     <Container
       id="container_publications"
+      _gap={0}
       footerPadding="4px 12px"
       footerPaddingType="normal"
       headerPadding="4px 12px"
@@ -605,6 +608,7 @@
         </Table>
         <Container
           id="container_publicationSearchResults"
+          _gap={0}
           footerPadding="4px 12px"
           footerPaddingType="normal"
           headerPadding="4px 12px"
@@ -756,6 +760,7 @@
     />
     <Container
       id="container_entity_details"
+      _gap={0}
       footerPadding="4px 12px"
       footerPaddingType="normal"
       headerPadding="4px 12px"
@@ -844,6 +849,7 @@
   >
     <Container
       id="container_publications2"
+      _gap={0}
       footerPadding="4px 12px"
       footerPaddingType="normal"
       headerPadding="4px 12px"
@@ -874,5 +880,526 @@
     hidden="true"
     iconPosition="left"
     viewKey="Rules"
+  />
+  <View
+    id="bb948"
+    disabled={false}
+    hidden={false}
+    iconPosition="left"
+    label="Bulk Import"
+    viewKey="Bulk Import"
+  >
+    <FileButton
+      id="browse_publication_csv_btn"
+      _isUpgraded={true}
+      accept=""
+      iconBefore="bold/programming-browser-search"
+      parseFiles={true}
+      styleVariant="outline"
+      text="Browse Publication CSV"
+    >
+      <Event
+        event="change"
+        method="trigger"
+        params={{ ordered: [] }}
+        pluginId="bulk_csv_validation"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </FileButton>
+    <Include src="./container3.rsx" />
+  </View>
+  <View
+    id="eea4c"
+    disabled={false}
+    hidden={false}
+    iconPosition="left"
+    viewKey="Bulk Import Status"
+  >
+    <Container
+      id="container4"
+      footerPadding="4px 12px"
+      headerPadding="4px 12px"
+      padding="12px"
+      showBody={true}
+      showHeader={true}
+    >
+      <Header>
+        <Text id="containerTitle4" value="#### Filter" verticalAlign="center" />
+      </Header>
+      <View id="4b9e9" viewKey="View 1">
+        <Select
+          id="userList"
+          captionByIndex=""
+          colorByIndex=""
+          data="{{ bulk_import_status_user_list.data }}"
+          disabledByIndex=""
+          emptyMessage="No options"
+          fallbackTextByIndex=""
+          hiddenByIndex=""
+          iconByIndex=""
+          imageByIndex=""
+          label="User"
+          labelPosition="top"
+          labels="{{ item.label }}"
+          overlayMaxHeight={375}
+          placeholder="Select an option"
+          showSelectionIndicator={true}
+          tooltipByIndex=""
+          value="{{ current_user.fullName }}"
+          values="{{ item.value }}"
+        />
+        <Checkbox
+          id="check_success"
+          label="Created"
+          labelWidth="100"
+          style={{ ordered: [{ checkedBackground: "success" }] }}
+          value="true"
+        >
+          <Event
+            event="change"
+            method="trigger"
+            params={{ ordered: [] }}
+            pluginId="bulk_status_user_records"
+            type="datasource"
+            waitMs="0"
+            waitType="debounce"
+          />
+        </Checkbox>
+        <Checkbox
+          id="check_error"
+          label="Error"
+          labelWidth="100"
+          style={{ ordered: [{ checkedBackground: "danger" }] }}
+          value="true"
+        >
+          <Event
+            event="change"
+            method="trigger"
+            params={{ ordered: [] }}
+            pluginId="bulk_status_user_records"
+            type="datasource"
+            waitMs="0"
+            waitType="debounce"
+          />
+        </Checkbox>
+      </View>
+    </Container>
+    <Container
+      id="container5"
+      footerPadding="4px 12px"
+      headerPadding="4px 12px"
+      padding="12px"
+      showBody={true}
+      showHeader={true}
+    >
+      <Header>
+        <Text
+          id="containerTitle5"
+          value="####  Overview"
+          verticalAlign="center"
+        />
+      </Header>
+      <View id="68dbc" viewKey="View 1">
+        <Table
+          id="bulk_import_status_grid"
+          actionsOverflowPosition={1}
+          cellSelection="none"
+          clearChangesetOnSave={true}
+          data="{{ bulk_status_user_records.data }}"
+          defaultSelectedRow={{ mode: "index", indexType: "display", index: 0 }}
+          emptyMessage="No rows found"
+          enableSaveActions={true}
+          heightType="auto"
+          rowHeight="medium"
+          showBorder={true}
+          showFooter={true}
+          showHeader={true}
+          toolbarPosition="bottom"
+        >
+          <Column
+            id="71e99"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            key="global_name"
+            label="Global name"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="b24c7"
+            alignment="left"
+            editableOptions={{ showStepper: true }}
+            format="string"
+            formatOptions={{ showSeparators: true, notation: "standard" }}
+            groupAggregationMode="sum"
+            key="publication_id"
+            label="Publication ID"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="510fa"
+            alignment="left"
+            format="tag"
+            formatOptions={{ automaticColors: true }}
+            groupAggregationMode="none"
+            key="status"
+            label="Status"
+            placeholder="Select option"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+            valueOverride="{{ _.startCase(item) }}"
+          />
+          <Column
+            id="7bbb0"
+            alignment="left"
+            format="tag"
+            formatOptions={{ automaticColors: true }}
+            groupAggregationMode="none"
+            key="user"
+            label="User"
+            placeholder="Select option"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+            valueOverride="{{ _.startCase(item) }}"
+          />
+          <Column
+            id="1c4bd"
+            alignment="left"
+            cellTooltipMode="overflow"
+            format="json"
+            formatOptions={{ automaticColors: true }}
+            groupAggregationMode="none"
+            key="results"
+            label="Results"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="e974f"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="nla_reporting_code"
+            label="Nla reporting code"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="34b43"
+            alignment="right"
+            editableOptions={{ showStepper: true }}
+            format="decimal"
+            formatOptions={{ showSeparators: true, notation: "standard" }}
+            groupAggregationMode="sum"
+            hidden="true"
+            key="gmd_id"
+            label="Gmd ID"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="97394"
+            alignment="left"
+            format="tag"
+            formatOptions={{ automaticColors: true }}
+            groupAggregationMode="none"
+            hidden="true"
+            key="media"
+            label="Media"
+            placeholder="Select option"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+            valueOverride="{{ _.startCase(item) }}"
+          />
+          <Column
+            id="ac35f"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="frequency"
+            label="Frequency"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="aa481"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="copyright_owner"
+            label="Copyright owner"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="5df20"
+            alignment="left"
+            format="tag"
+            formatOptions={{ automaticColors: true }}
+            groupAggregationMode="none"
+            hidden="true"
+            key="country"
+            label="Country"
+            placeholder="Select option"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+            valueOverride="{{ _.startCase(item) }}"
+          />
+          <Column
+            id="162d6"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="nla_region"
+            label="Nla region"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="4f398"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="nla_acronym"
+            label="Nla acronym"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="21835"
+            alignment="right"
+            editableOptions={{ showStepper: true }}
+            format="decimal"
+            formatOptions={{ showSeparators: true, notation: "standard" }}
+            groupAggregationMode="sum"
+            hidden="true"
+            key="updated_at"
+            label="Updated at"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="84be2"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="nla_name"
+            label="Nla name"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="2becd"
+            alignment="left"
+            cellTooltipMode="overflow"
+            format="tags"
+            formatOptions={{ automaticColors: true }}
+            groupAggregationMode="none"
+            hidden="true"
+            key="languages"
+            label="Languages"
+            placeholder="Select options"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="f3bdd"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="nla_publisher"
+            label="Nla publisher"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="bbd7c"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="immo_license"
+            label="Immo license"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="65a08"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="category"
+            label="Category"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="92523"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="nla_publication_type"
+            label="Nla publication type"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="9a179"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="nli_name"
+            label="Nli name"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="28e99"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="nli_publication_type"
+            label="Nli publication type"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Column
+            id="76830"
+            alignment="left"
+            format="string"
+            groupAggregationMode="none"
+            hidden="true"
+            key="delivery_method"
+            label="Delivery method"
+            placeholder="Enter value"
+            position="center"
+            size={100}
+            summaryAggregationMode="none"
+          />
+          <Action
+            id="ad6d8"
+            icon="bold/interface-edit-pencil"
+            label="Action 1"
+          />
+          <ToolbarButton
+            id="1a"
+            icon="bold/interface-text-formatting-filter-2"
+            label="Filter"
+            type="filter"
+          />
+          <ToolbarButton
+            id="3c"
+            icon="bold/interface-download-button-2"
+            label="Download"
+            type="custom"
+          >
+            <Event
+              event="clickToolbar"
+              method="exportData"
+              pluginId="bulk_import_status_grid"
+              type="widget"
+              waitMs="0"
+              waitType="debounce"
+            />
+          </ToolbarButton>
+          <ToolbarButton
+            id="4d"
+            icon="bold/interface-arrows-round-left"
+            label="Refresh"
+            type="custom"
+          >
+            <Event
+              event="clickToolbar"
+              method="refresh"
+              pluginId="bulk_import_status_grid"
+              type="widget"
+              waitMs="0"
+              waitType="debounce"
+            />
+          </ToolbarButton>
+        </Table>
+      </View>
+    </Container>
+  </View>
+  <Event
+    enabled="{{tabbedcontainer_publication.currentViewKey === 'Bulk Import Status'}}"
+    event="change"
+    method="trigger"
+    params={{
+      ordered: [
+        {
+          options: {
+            object: { onSuccess: null, onFailure: null, additionalScope: null },
+          },
+        },
+      ],
+    }}
+    pluginId="bulk_status_user_records"
+    type="datasource"
+    waitMs="0"
+    waitType="debounce"
+  />
+  <Event
+    event="change"
+    method="trigger"
+    params={{ ordered: [] }}
+    pluginId="bulk_import_status_user_list"
+    type="datasource"
+    waitMs="0"
+    waitType="debounce"
   />
 </Container>

@@ -59,6 +59,16 @@
       }
     }
   },
+  "browse_publication_csv_btn": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "bb948"
+  },
+  "bulk_import_status_grid": {
+    "container": "container5",
+    "subcontainer": "68dbc",
+    "height": 1,
+    "width": 12
+  },
   "button1": {
     "container": "tabbedcontainer_publication",
     "subcontainer": "cd96e",
@@ -146,6 +156,35 @@
       }
     }
   },
+  "check_error": {
+    "container": "container4",
+    "subcontainer": "4b9e9",
+    "row": 0.8,
+    "col": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "check_success": {
+    "container": "container4",
+    "subcontainer": "4b9e9",
+    "row": 0.8,
+    "col": 3,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
   "checkboxTree1": {
     "container": "container_publications2",
     "subcontainer": "48330",
@@ -209,6 +248,48 @@
         "height": 0
       }
     }
+  },
+  "container3": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "bb948",
+    "row": 1,
+    "width": 12
+  },
+  "container4": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "eea4c",
+    "width": 12
+  },
+  "container5": {
+    "container": "tabbedcontainer_publication",
+    "subcontainer": "eea4c",
+    "row": 5,
+    "height": 3.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle3": {
+    "container": "container3",
+    "rowGroup": "header",
+    "width": 12
+  },
+  "containerTitle4": {
+    "container": "container4",
+    "rowGroup": "header",
+    "width": 12
+  },
+  "containerTitle5": {
+    "container": "container5",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
   },
   "container_entity_details": {
     "container": "tabbedcontainer_publication",
@@ -623,6 +704,65 @@
     "container": "form_rules2",
     "width": 12
   },
+  "pub_csv_data_preview_table": {
+    "container": "container3",
+    "subcontainer": "1170d",
+    "row": 1,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "pub_csv_data_preview_text": {
+    "container": "container3",
+    "subcontainer": "1170d",
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "pub_validation_error_table": {
+    "container": "container3",
+    "subcontainer": "1170d",
+    "row": 1,
+    "col": 6,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "pub_validation_error_text": {
+    "container": "container3",
+    "subcontainer": "1170d",
+    "col": 6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
   "select_category": {
     "container": "tabbedcontainer_publication_details",
     "subcontainer": "a6b7a",
@@ -828,6 +968,18 @@
       "object": {
         "ordinal": 37,
         "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "userList": {
+    "container": "container4",
+    "subcontainer": "4b9e9",
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
         "width": 0,
         "height": 0
       }
